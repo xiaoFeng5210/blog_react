@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { RouterProvider } from "react-router-dom"
 import './styles/App.css'
+import routes from './config/route'
 
 function App() {
   return (
-    <div className="App">
-      测试网页
-    </div>
+    <>
+      <RouterProvider router={routes} />
+    </>
   )
 }
 
