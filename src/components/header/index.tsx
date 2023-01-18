@@ -4,7 +4,7 @@ import 'styles/header.scss'
 
 function Header() {
   return (
-    <nav className='w-full h-90.5px flex items-center justify-between'>
+    <nav className='w-full h-90.5px flex items-center justify-between sticky top-0'>
       <div className='w-50px h-50px ml-30px'>
         <img src="https://antfu.me/logo.svg" alt="" className='w-full h-full' />
       </div>
