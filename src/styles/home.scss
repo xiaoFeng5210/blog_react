@@ -15,3 +15,40 @@
     height: 200px;
   }
 }
+
+article, .right_img {
+  height: 100%;
+  width: 40%;
+}
+
+article {
+  animation: article_animate 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.right_img {
+  animation: right_img_animate 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes article_animate {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes right_img_animate {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
