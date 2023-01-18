@@ -15,7 +15,7 @@ function Home() {
             Dreaming up ideas and making them come true is where my passion lies. You can find my full projects list here. I have also started a 100-day challenge about design, compform, interactivity, and experimenting with new things on 100.antfu.me.</p>
         </article>
         <div className='right_img'>
-          <img src="/images/blog_index.jpg" className='w-full h-600px' alt="" />
+          <img src="/images/blog_index.jpg" loading='lazy' className='w-full h-600px' alt="" />
         </div>
       </div>
     </main>
